@@ -104,7 +104,7 @@ class Solution {
         vis[src] = true;
         for(Edge e : graph.get(src)){
             if(!vis[e.nbr]){
-                if(dfs(graph,e.nbr, dest, hm, time+1,vis)){
+                if(dfs(graph,e.nbr, dest,  hm, time+1,vis)){
                     return true;
                 }
             }
