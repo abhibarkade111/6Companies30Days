@@ -28,6 +28,6 @@ class Solution {
 }
 
 // Time Complexity : O(log5)
-// Space Complexity : O(1)
+// Space Complexity :  O(1)
 
 
